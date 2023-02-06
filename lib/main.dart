@@ -4,7 +4,7 @@ import 'pages/home_page.dart';
 import 'pages/sign_in.dart';
 import 'services/pref.dart';
 
-main() {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Firebase.initializeApp();
   runApp(const MyApp());
